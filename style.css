@@ -1,0 +1,195 @@
+*
+{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+	font-family:sans-serif;
+}
+body,html
+{
+	width:100%;
+	height:100%;
+}
+.navbar
+{
+	background-color:#011F4B;
+}
+.nav
+{
+	display:flex;
+	flex-wrap:wrap;
+	justify-content:space-between;
+	align-items:center; 
+	width:90%;
+	height:100px;
+	margin:auto;
+	color:rgb(255,255,255);
+	font-size:20px;
+}
+.menu ul
+{
+	display:flex;
+	flex-direction: row;
+	justify-content:space-between;
+	align-items:center;
+	list-style-type:none;
+}
+.menu ul li
+{
+	margin:15px;
+}
+.toggle
+{
+	width:45px;
+	height:35px;
+	display:none;
+}
+.icon
+{
+	display:block;
+	width:25px;
+	height:2px;
+	background-color:rgb(255,255,255);
+	position:relative;
+	background-color:black;
+	margin:auto;
+}
+.icon::before,.icon::after
+{
+	display:block;
+	content:"";
+	width:25px;
+	height:2px;
+	background-color:rgb(255,255,255);
+	position:absolute;
+	background-color:black;
+}
+.icon::before
+{
+	top:7px;
+}
+.icon::after
+{
+	top:-7px;
+}
+.container
+{
+	width:100%;
+	height:auto;
+	margin-top:20px;
+	padding:20px;
+	
+}/*
+.row1
+{
+	width:100%;
+	height:250px;
+	text-align:center;
+}
+.row2
+{
+	width:100%;
+	height:250px;
+	margin-top:25px;
+	text-align:center;
+}
+.row3
+{
+	width:100%;
+	height:250px;
+	margin-top:25px;
+	text-align:center;
+}
+#show
+	{
+	width:300px;
+	height:200px;
+	background-color:red;
+	display:none;
+	}
+.footer
+	{
+	clear:both;
+	width:100%;
+	height:auto;
+	margin-top:50px;
+	color:white;
+	background-color:#011F4B;
+	clear:both;
+	}*/
+	 .footerrow  
+	{
+		display:flex;
+		flex-direction:row;
+		justify-content:space-around;
+		align-items:center;
+		width:100%;
+		color:white;
+		height: auto;
+		background-color:#011F4B;
+	}
+	.col ul 
+	{
+		list-style-type:none;	
+	}
+	.col ul li
+	{
+		
+	}
+	.fa-brands
+	{
+		font-size:25px;
+	}
+	.lastfooter
+	{
+		width:100%;
+		height:50px;
+		background-color:rgb(000,000,000);
+		color:rgb(255,255,255);
+		font-size:10px;
+		text-align:center;
+		position: absolute;
+	}
+	p
+	{
+		position:relative;
+	
+	}
+	.searchbtn
+	{
+		background-color:#fff;
+	}
+@media screen  and (max-width:480px)
+	{
+		.menu
+		{
+			display:none;
+
+		}
+		.toggle
+		{
+			display:block;
+		}
+		.footer .footerrow
+		{
+			display: block;
+			flex-direction: column;
+			text-align:center;
+		}
+		.lastfooter
+	{
+		width:100%;
+		height:50px;
+		background-color:rgb(000,000,000);
+		color:rgb(255,255,255);
+		font-size:10px;
+		text-align:center;
+		position: absolute;
+	}
+	p
+	{
+		position:relative;
+	
+	}
+
+	}	
